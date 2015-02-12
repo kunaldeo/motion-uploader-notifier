@@ -19,7 +19,7 @@ You can configure it at any of the motion event you find suitable. You will need
 ```ini
 [motion_event_name] [/path/to/motionuploader.py]  [/path/to/ini/file]
 ```
-For example the following line configures it `on_picture_save` or `on_movie_end`.
+For example the following line configures it `on_picture_save` and `on_movie_end`.
 ```sh
 on_picture_save ~/.motion/motionuploader.py ~/.motion/motionuploader.ini %f
 on_movie_end ~/.motion/motionuploader.py ~/.motion/motionuploader.ini %f
